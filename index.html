@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en"class="oldie">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,65 +10,68 @@
     <link rel="stylesheet" href="./style/style.css">
   </head>
   <body>
-    <header id="textoHead">
-      <span>Turismo Aventura Front-End</span>
-    </header>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>-->
 
     
 
     
     
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Servicios</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contacto.html">Contacto</a>
-      </li>
-    </ul>
-    
+<div class="row">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Turismo Aventura Front-End</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>                      
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link active" href="contacto.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.sernatur.cl/region/tarapaca/">Sernatur Tarapaca</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            Radio Online
+          </span>
+          <audio class="radio" autoplay controls="controls">
+              <source src="http://144.217.197.70:8094/stream;" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+    </nav>           
+</div>
 
     <div class="container-fluid">
       <div class="parent">
-        <div class="div1">
-          <div id="menu">
-            <div id="logo-principal"></div>
-            <div id="primer-contenedor" class="contenedor-general">
-              <div class="logo-interior"></div>
-              <p class="texto"><a id="link" href="index.html">Inicio</a></p>
-            </div>
-            <div class="contenedor-general">
-              <div class="logo-interior"></div>
-              <p class="texto"><a id="link" href="servicios.html">Servicios</a></p>
-            </div>
-            <div class="contenedor-general">
-              <div class="logo-interior"></div>
-              <p class="texto"><a id="link" href="contacto.html">Contacto</a></p>
-            </div>
-          </div>
-
-        
-        </div>
+ 
 
       
-        <div class="div2"> 
-          <div class="container" >
+        <div class="div1"> 
+          <div class="container-lg" >
         
             <h2><center>Turismo Aventura en Iquique</center></h2>
             <br>
   
-            <p>
+            <p class="text-article">
               Nuestro clima priviligiado nos permite practicar disciplinas como el
               surf, sandboard, parapente, cicloturismo y trekking durante todo el
               año.
             </p>
             
-            <p>
+            <p class="text-article">
               Para los amantes del vuelo en parapente, las ciudades de Iquique y
               Alto Hospicio, conocidas por contar con los mejores cielos de
               Sudamérica, se conectan para ofrecer un despegue desde 530 metros de
@@ -79,7 +82,7 @@
               nutre por la camanchaca.
             </p>
             
-            <p>
+            <p class="text-article">
               Las clases de surf en playa Cavancha abren la posibilidad aprender y
               de correr olas a personas de distintas edades. Asimismo, la costa de
               Iquique cuenta con olas reconocidas mundialmente por profesionales de
@@ -103,8 +106,10 @@
           
 
         </div>
-        <div class="div3"> 
-          <img src="./imagenes/iquique.png" class="img-fluid" alt="Iquique">
+        <div class="div2"> 
+          <div class="container-fluid">
+            <img src="./imagenes/iquique.png" class="img-fluid" alt="Iquique">
+          </div>
 
 
         </div>
@@ -123,7 +128,7 @@
     <footer>
       <div>
         <p>
-          &copy; 2022 INACAP Programación Front End / Todos los derechos
+          &copy; 2022 INACAP Programación Front End / Raúl Córdova, Carlos Castro / Todos los derechos
           reservados.
         </p>
       </div>
