@@ -1,11 +1,9 @@
 html {
   height:100%;
 }
-
 body {
   margin:0;
 }
-
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #FF00FF 50%, #09f 50%);
@@ -17,16 +15,13 @@ body {
   top:0;
   z-index:-1;
 }
-
 .bg2 {
   animation-direction:alternate-reverse;
   animation-duration:4s;
 }
-
 .bg3 {
   animation-duration:5s;
 }
-
 .content {
   background-color:rgba(255,255,255,.8);
   border-radius:.25em;
@@ -39,11 +34,9 @@ body {
   top:50%;
   transform:translate(-50%, -50%);
 }
-
 h1 {
   font-family:monospace;
 }
-
 @keyframes slide {
   0% {
     transform:translateX(-25%);
@@ -52,52 +45,14 @@ h1 {
     transform:translateX(25%);
   }
 }
-
-
-
-/*body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
-}
-
-@-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-*/
-
 html {
   height: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
-
-
 footer {  
   color: white;
   width: 100%;
@@ -106,25 +61,16 @@ footer {
   bottom: 0;
   position: fixed;
 }
-
-
-
-
 .div3{  
   margin-top: 2px;
 }
-
 .div4{
   margin-top: 40px;
 }
-
 header{
   text-align: center;
   font-size:  25px;;
 }
-
-
-
 .parent {
   display: grid;
   grid-template-columns: 2fr 2.5fr;
@@ -132,19 +78,11 @@ header{
   grid-column-gap: 20px;
   grid-row-gap: 0px;
   }
-  
-  .div1 { grid-area: 1 / 1 / 2 / 2; }
-  .div2 { grid-area: 1 / 2 / 2 / 3; }
-  
-
-
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
 img{
   width: 100%;
 }
-
-
-
-
 form {
   background-color: rgba(15, 174, 223, 0.904);
   margin: 0 auto;
@@ -157,23 +95,18 @@ form {
   border-radius: 10px;
   font-size: 15px;
 }
-
 #form {
   text-align: center;
   color: black;
 }
-
-
-
-
-
 input,
 textarea {
+  margin-left: 10px;
+  margin-right: 10px;
   border: 0;
   outline: none;
-  width: 300px;
+  width: 94%;
 }
-
 table,
 th,
 td {
@@ -181,14 +114,10 @@ td {
   text-align: center;
   font-size: 20px;
 }
-
-
 .nav-link {
   color: whitesmoke;
   text-decoration: none;  
-
 }
-
 .div1{
   margin-top: 2%;
   margin-right: 10%;
@@ -197,38 +126,29 @@ td {
   height: auto;
   color: white;
 }
-
 p{
   color: white;
 }
-
 .card-text{
   color: black;
 }
-
 .div2C{
   margin-top: 2%;
   margin-bottom: 5%;
   margin-right: 10%;
   color: white;
-
-  
 }
-
 .text-article{
   text-align: justify;
 }
-
 .navbar-text {
   color: white;
   padding-right: 7pt;
 }
-
 .radio{
   width: 200px;
   height: 25px;
 }
-
 #noColor{
   color: black;
 }
